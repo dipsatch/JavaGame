@@ -1,0 +1,26 @@
+repositories{
+    mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.redomar.game.Launcher'
+
+sourceSets{
+    main{
+        java.srcDir 'src'
+        resources.srcDir 'res'
+    }
+    test{
+        java.srcDir 'test'
+    }
+}
+
+dependencies{
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile('com.googlecode.soundlibs:mp3spi:1.9.5.4'){
+        exclude module: 'junit'
+    }
+    testCompile 'junit:junit:4.12'
+}

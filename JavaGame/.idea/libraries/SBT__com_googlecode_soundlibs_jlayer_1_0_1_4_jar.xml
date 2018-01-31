@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.googlecode.soundlibs:jlayer:1.0.1.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.soundlibs/jlayer/bundles/jlayer-1.0.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.soundlibs/jlayer/srcs/jlayer-1.0.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
